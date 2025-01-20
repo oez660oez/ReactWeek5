@@ -1,0 +1,81 @@
+@import url(./navbar.css);
+@import url(./header.css);
+@import url(./body.css);
+html,
+body {
+  margin: 0;
+
+padding: 0;
+
+min-height: 100vh;
+
+background-color: #1c1c1c;
+
+color: white;
+
+  }
+
+.container {
+  margin: 0 auto;
+
+padding: 0 15px;
+
+max-width: 1080px !important;
+
+  }
+
+.block-btn {
+  padding: 10px 20px;
+
+border: #3ec7ff solid 1px;
+
+border-radius: 6px;
+
+color: #3ec7ff;
+
+text-decoration: none;
+
+font-weight: 500;
+
+transition: background-color 300ms, color 300ms;
+
+  }
+
+.block-btn:hover {
+  background-color: #3ec7ff;
+
+color: rgb(255, 255, 255);
+
+  }
+
+.block-btn--gradient {
+  border: #747bff solid 1px;
+
+background-image: linear-gradient(to right bottom, #747bff, #a930fb);
+
+box-shadow: #9d40fb 1px 0px 11px 0px;
+
+color: #ffffff;
+
+transition: box-shadow 300ms;
+
+  }
+
+.block-btn--gradient:hover {
+  box-shadow: #9d40fb 1px 0px 13px 1px;
+}
+
+.footer {
+  display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+height: 150px;
+
+background-image: linear-gradient(to right bottom, #747bff, #a930fb);
+
+color: white;
+
+  }

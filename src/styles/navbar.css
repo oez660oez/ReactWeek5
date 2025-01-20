@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-top: 20px;
+}
+
+.nav__logo {
+  color: #3ec7ff;
+
+  font-size: 1.2em;
+}
+
+.nav__container {
+  display: flex;
+}
+
+.nav__links {
+  display: inline-flex;
+}
+
+.nav__links li {
+  margin-left: 10px;
+
+  list-style-type: none;
+}
+
+.nav__links li a {
+  color: white;
+
+  text-decoration: none;
+}
+
+.nav__btns {
+  display: inline-flex;
+
+  list-style-type: none;
+}
+.nav__btns li {
+  margin-left: 10px;
+}

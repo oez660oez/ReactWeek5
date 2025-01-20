@@ -1,0 +1,18 @@
+.header__smallword {
+  color: white;
+
+font-size: 1em;
+
+  }
+
+.header__bigword {
+  color: #3ec7ff;
+
+font-weight: bold;
+
+font-size: 3.2em;
+
+  }
+.header__position {
+  margin-top: 20px;
+}

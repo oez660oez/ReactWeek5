@@ -1,0 +1,263 @@
+.cardWrapper {
+  position: relative;
+
+overflow: hidden;
+
+margin-bottom: 20px;
+
+width: 100%;
+
+height: 500px;
+
+border: none;
+
+border-radius: 8px;
+
+background-color: transparent;
+
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+  }
+
+.image {
+  width: 100%;
+
+height: 100%;
+
+object-fit: cover;
+
+  }
+
+.overlay {
+  position: absolute;
+
+top: 350px;
+
+right: 0;
+
+bottom: 0;
+
+left: 0;
+
+z-index: 1;
+
+height: 150px;
+
+background-color: rgba(0, 0, 0, 0.5);
+
+  }
+
+.content {
+  position: absolute;
+
+right: 0;
+
+bottom: 0px;
+
+left: 0;
+
+z-index: 2;
+
+padding: 20px;
+
+color: white;
+
+  }
+
+.iconWrapper {
+  display: flex;
+
+align-items: center;
+
+margin-right: 15px;
+
+  }
+
+.icon {
+  margin-right: 5px;
+
+width: 16px;
+
+height: 16px;
+
+color: #8b5cf6;
+
+  }
+.text-light {
+  font-weight: lighter;
+
+font-size: 1.25rem !important;
+
+  }
+.dateInfo {
+  position: absolute;
+
+top: 360px;
+
+right: 10px;
+
+z-index: 2;
+
+display: flex;
+
+align-items: center;
+
+color: #ddd6fe;
+
+  }
+
+.locationInfo {
+  position: absolute;
+
+right: 20px;
+
+bottom: 10px;
+
+z-index: 2;
+
+display: flex;
+
+align-items: center;
+
+color: #ddd6fe;
+
+  }
+
+.infoText {
+  color: #ddd6fe;
+
+font-size: 0.6rem;
+
+  }
+
+.eventHeader {
+  margin: 10px 0 20px 0;
+
+padding: 10px 15px;
+
+width: 20%;
+
+border-radius: 8px;
+
+background-color: rgba(30, 41, 59, 0.5);
+
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+color: #60a5fa;
+
+font-size: 0.875rem;
+
+  }
+
+.eventList {
+  overflow: auto;
+
+height: auto;
+
+background-color: transparent;
+
+  }
+
+.eventItem {
+  display: flex;
+
+align-items: center;
+
+margin-bottom: 15px;
+
+height: 70px;
+
+border-radius: 8px;
+
+background-color: rgba(30, 41, 59, 0.5);
+
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+  }
+
+.eventContainer {
+  padding: 0 1rem;
+
+min-width: 120px;
+
+  }
+
+.eventDate {
+  margin-left: 10px;
+
+color: #9333ea;
+
+font-weight: bold;
+
+font-size: 2.5rem;
+
+  }
+
+.eventInfo {
+  display: flex;
+
+align-items: center;
+
+flex: 1;
+
+  }
+
+.eventTime {
+  color: #60a5fa;
+
+font-size: 0.75rem;
+
+  }
+
+.eventMonth,
+.eventDay {
+  color: #60a5fa;
+
+font-size: 0.75rem;
+
+  }
+
+.eventTitle {
+  margin-right: 30px;
+
+color: white;
+
+font-weight: bold;
+
+font-size: 1rem;
+
+  }
+
+.buttonContainer {
+  display: flex;
+
+align-items: stretch;
+
+height: 100%;
+
+  }
+
+.bookButton {
+  padding: 20px;
+
+height: 100%;
+
+border: none;
+
+border-radius: 8px;
+
+background-color: #9333ea;
+
+color: white;
+
+white-space: nowrap;
+
+cursor: pointer;
+
+transition: background-color 0.2s;
+
+  }
+
+.bookButton:hover {
+  background-color: #7e22ce;
+}
